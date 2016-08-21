@@ -1,0 +1,26 @@
+README
+
+################################################################################################################
+
+RUNNING THE PROGRAM:
+
+Running the server (which is on the VM -- run from the root of the VM):
+
+./application/server/server dropbox-eronning-wh7.foouniversity.com:8080
+
+Connecting to the server with the client (which is not on the VM -- run from the base directory of the handin):
+
+./application/client/client dropbox-eronning-wh7.foouniversity.com:8080
+ 
+################################################################################################################
+
+HOW THE PROGRAM WORKS:
+
+When connecting with the client, a user is capable of either signing up or logging in. The
+user can choose one of these options to be validated by the server and connect to an
+account. Once the user is connected to an account they are capable of maneuvering their
+dropbox directory. The user is capable of seeing their files and directories. They are able 
+to upload files to a location on their filesystem. They are also able to download files from
+their filesystem.
+
+
